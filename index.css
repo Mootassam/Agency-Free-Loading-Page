@@ -1,0 +1,25 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Primary Color */
+  --Button-Primary: #3e3fd8;
+  --white-primary: #eef4ff;
+  --Secondary-white: #ffffff;
+  --Text-primary: #2e323b;
+  --Dark-primary: #61646b;
+
+  /* Seconderay Color */
+  --pink: #ef8b8d;
+  --green: #50cb93;
+  --vieolet: #7d83fc;
+  --background-pink: #ff3d68;
+  --secondary-background-pink: #fcddec;
+  --background: #e5e5e5;
+}

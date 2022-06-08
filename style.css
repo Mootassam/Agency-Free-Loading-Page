@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap");
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 5.75rem;
+  color: var(--Text-primary);
+}
+li {
+  list-style: none;
+  font-size: 24px;
+  line-height: 34.68px;
+  color: var(--Dark-primary);
+  cursor: pointer;
+}
+span {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52.02px;
+  color: var(--Button-Primary);
+}
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 69.36px;
+  color: var(--Text-primary);
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.01px;
+  color: var(--Dark-primary);
+}
+.app {
+  overflow: hidden;
+}
+
+/* *** Styling the menue for the version desktop  **** */
+.app__menue {
+  padding: 2.25rem 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white-primary);
+}
+.menue__links ul {
+  display: flex;
+  width: 100%;
+  gap: 64px;
+  align-items: flex-start;
+}
+
+.menue__Buttons {
+  padding: 17px 50px;
+  background-color: var(--white-primary);
+  border-radius: 20px;
+  color: var(--Button-Primary);
+  cursor: pointer;
+  line-height: 26px;
+}
+
+/* ***** Styling the header for the verion Desktop **** */
+.app__header {
+  padding: 0rem 10rem;
+  background-color: var(--white-primary);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.header__left,
+.header__right {
+  flex-basis: 50%;
+}
+.header__left {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.header__left h1 {
+  padding-top: 5rem;
+}
+
+.left__button {
+  display: flex;
+  flex-direction: row;
+  gap: 1.875 rem;
+  align-items: center;
+  text-align: center;
+}
+
+.left__button div:nth-child(1) {
+  background-color: var(--Button-Primary);
+  padding: 1rem 1.4rem;
+  color: var(--white-primary);
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 0.93rem;
+}
+.left__button div:nth-child(1) img {
+  background-color: var(--white-primary);
+  border-radius: 5px;
+  padding: 0.75rem 0.43rem;
+}
+
+.header__right {
+  position: relative;
+
+  top: 0;
+}
