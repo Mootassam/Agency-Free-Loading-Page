@@ -28,6 +28,12 @@ h2 {
   line-height: 69.36px;
   color: var(--Text-primary);
 }
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34.68px;
+  color: var(--Text-primary);
+}
 p {
   font-size: 18px;
   font-weight: 400;
@@ -128,8 +134,10 @@ p {
 }
 .header__right {
   position: relative;
-
   top: 0;
+}
+.header__right img {
+  width: 100%;
 }
 
 /* *** Styling the clinet Desktop version *** */
@@ -145,6 +153,13 @@ p {
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
 }
+
+.marketing__left {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+}
+
 .marketing__right {
   width: 60%;
 }
