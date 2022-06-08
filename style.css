@@ -335,3 +335,24 @@ p {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
 }
+.about_testimonials div {
+  width: 360px;
+  height: 204px;
+  padding: 2.5rem 1.25rem;
+}
+
+.about_testimonials div:nth-child(1) {
+  background: #ffffff;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+}
+.about_testimonials div:nth-child(2) {
+  border: 2px solid #3e3fd8;
+  box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+.about_testimonials div:nth-child(3) {
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+}
