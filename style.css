@@ -153,12 +153,22 @@ p {
   padding: 0.8rem 0.8rem;
 }
 .header__right {
+}
+.header__right::before {
+  content: "";
+  position: absolute;
+  background-color: var(--pink);
+  width: 501px;
+  height: 514px;
+  border-radius: 60px;
+  left: 796px;
+  top: 137px;
+}
+.header__right img {
   position: absolute;
   top: 8.5%;
   right: 6%;
-}
-.header__right img {
-  width: 100%;
+  width: 42%;
 }
 
 /* *** Styling the clinet Desktop version *** */
