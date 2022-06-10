@@ -406,3 +406,52 @@ p {
   align-items: center;
   gap: 0.31rem;
 }
+
+.app__newsLettre {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 10rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.app__newsLettre > span {
+  color: var(--Button-Primary);
+  font-size: 1.5em;
+  padding-bottom: 1.25rem;
+  line-height: 4.25rem;
+  font-weight: 400;
+}
+
+.app__newsLettre > p {
+  text-align: center;
+  width: 45%;
+  padding: 1.25rem 0 2.5rem 0;
+}
+.newsLettre__form {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  padding: 4px;
+  border: 1px solid var(--Text-primary);
+  border-radius: 3.125rem;
+}
+input {
+  border-radius: 3.125rem;
+  border: none;
+  flex-grow: 2;
+  padding: 1.18rem 2.4rem;
+  font-size: 24px;
+}
+input:focus {
+  /* removing the input focus blue box. Put this on the form if you like. */
+  outline: none;
+}
+.form__button {
+  background-color: var(--Button-Primary);
+  border-radius: 3.125rem;
+  color: var(--white-primary);
+  padding: 1.18rem 1.25rem;
+
+  cursor: pointer;
+}
