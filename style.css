@@ -2,6 +2,7 @@
 body {
   font-family: "Jost", sans-serif;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 h1 {
   font-size: 64px;
@@ -491,12 +492,12 @@ input:focus {
   gap: 1.25rem;
 }
 
-.footer__detaills li {
-  color: var(--Secondary-white);
-}
 .footer__detaills ul li {
   padding: 0 0 0.625rem 0;
   font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--Secondary-white);
 }
 .footer__detaills ul li:nth-child(1) {
   padding: 0 0 1.25rem 0;
