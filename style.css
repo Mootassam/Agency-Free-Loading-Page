@@ -48,6 +48,19 @@ p {
 }
 
 /* *** Styling the menue for the version desktop  **** */
+
+.header {
+  position: relative;
+}
+/* .header::before {
+  content: "";
+  background-color: var(--vieolet);
+  width: 884px;
+  height: 808px;
+  position: absolute;
+  right: -27%;
+  border-radius: 60px;
+} */
 .app__menue {
   padding: 2.25rem 10rem;
   width: 100%;
@@ -64,8 +77,8 @@ p {
 }
 
 .menue__Buttons {
-  padding: 17px 50px;
-  background-color: var(--white-primary);
+  padding: 1rem 3.2rem;
+  background: var(--green);
   border-radius: 20px;
   color: var(--Button-Primary);
   cursor: pointer;
@@ -74,7 +87,7 @@ p {
 
 /* ***** Styling the header for the verion Desktop **** */
 .app__header {
-  padding: 0rem 10rem 0rem;
+  padding: 0rem 10rem 8rem;
   background-color: var(--white-primary);
   display: flex;
   flex-direction: row;
@@ -92,6 +105,10 @@ p {
 }
 .header__left h1 {
   padding-top: 5rem;
+}
+
+.header__left p {
+  width: 80%;
 }
 
 .left__button {
@@ -136,8 +153,9 @@ p {
   padding: 0.8rem 0.8rem;
 }
 .header__right {
-  position: relative;
-  top: 0;
+  position: absolute;
+  top: 8.5%;
+  right: 6%;
 }
 .header__right img {
   width: 100%;
