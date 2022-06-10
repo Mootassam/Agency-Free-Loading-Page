@@ -52,7 +52,18 @@ p {
 .header {
   position: relative;
 }
-/* .header::before {
+
+.app__menue {
+  position: relative;
+  padding: 2.25rem 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white-primary);
+  z-index: 1;
+}
+.app__menue::before {
   content: "";
   background-color: var(--vieolet);
   width: 884px;
@@ -60,14 +71,9 @@ p {
   position: absolute;
   right: -27%;
   border-radius: 60px;
-} */
-.app__menue {
-  padding: 2.25rem 10rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--white-primary);
+  z-index: -1;
+  left: 1012px;
+  top: 5px;
 }
 .menue__links ul {
   display: flex;
@@ -78,7 +84,7 @@ p {
 
 .menue__Buttons {
   padding: 1rem 3.2rem;
-  background: var(--green);
+  background: var(--white-primary);
   border-radius: 20px;
   color: var(--Button-Primary);
   cursor: pointer;
@@ -161,14 +167,16 @@ p {
   width: 501px;
   height: 514px;
   border-radius: 60px;
-  left: 796px;
+  left: 820px;
   top: 137px;
+  z-index: 2;
 }
 .header__right img {
   position: absolute;
   top: 8.5%;
-  right: 6%;
+  right: 5%;
   width: 42%;
+  z-index: 3;
 }
 
 /* *** Styling the clinet Desktop version *** */
