@@ -90,6 +90,9 @@ p {
   cursor: pointer;
   line-height: 26px;
 }
+.menue__hamburger {
+  display: none;
+}
 
 /* ***** Styling the header for the verion Desktop **** */
 .app__header {
@@ -190,6 +193,12 @@ p {
     flex-direction: row;
     width: 100%;
     padding: 0 20px 4rem;
+  }
+  .menue__hamburger {
+    cursor: pointer;
+    display: flex;
+    width: 35px;
+    height: 35px;
   }
 
   .header__left,
