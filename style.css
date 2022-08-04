@@ -177,11 +177,10 @@ p {
 }
 
 /* *** Styling the clinet Desktop version *** */
-
-.client {
+.client__marketing {
   max-width: 1132px;
-  margin-inline: auto;
   width: 100%;
+  margin: auto;
 }
 .content__client {
   display: flex;
@@ -195,17 +194,17 @@ p {
 
 .content__marketing {
   padding-bottom: 7.5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .marketing__left {
-  margin-left: 5rem;
+  width: 50%;
 }
 
 .marketing__right {
-  width: 60%;
+  width: 50%;
 }
 .detaill {
   display: grid;
@@ -243,15 +242,16 @@ p {
   background-color: var(--vieolet);
 }
 
-/* Styling the content Business */
+/* **** Styling the content Business  **** */
 
 .content__business {
   max-width: 1132px;
   margin: auto;
+  width: 100%;
   text-align: center;
   display: flex;
   padding: 5rem 0;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
