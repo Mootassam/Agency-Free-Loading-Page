@@ -488,6 +488,7 @@ p {
 .newsLettre > p {
   width: 45%;
   text-align: center;
+  padding-bottom: 20px;
 }
 .app__newsLettre > p {
   text-align: center;
