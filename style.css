@@ -182,7 +182,76 @@ p {
   z-index: 3;
 }
 
-/* *** Styling the clinet Desktop version *** */
+@media screen and (max-width: 1133px) {
+  .app__menue {
+    padding: 1.25rem 20px;
+  }
+  .app__header {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0 20px 8rem;
+  }
+
+  .header__left,
+  .header__right {
+    width: 100%;
+  }
+  .header__right > img {
+    position: static;
+    width: 100%;
+  }
+  .app__menue::before {
+    display: none;
+  }
+
+  .header__left {
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .header__left p {
+    width: 100%;
+  }
+  .header__left h1 {
+    padding-top: 1rem;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.3;
+    color: var(--Text-primary);
+    width: 100%;
+  }
+  .header__right::before {
+    display: none;
+  }
+  .menue__links {
+    display: none;
+  }
+  .menue__Buttons {
+    display: none;
+  }
+  .left__button {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 1.875 rem;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .left__button div:nth-child(1) {
+    padding: 0.4rem 1.4rem;
+    gap: 1rem;
+  }
+  .left__button div:nth-child(2) {
+    padding: 1rem 0.6rem;
+    gap: 1rem;
+  }
+}
+
+/* *** Styling the client Desktop version *** */
 .client__marketing {
   max-width: 1132px;
   width: 100%;
@@ -426,6 +495,7 @@ p {
     font-size: 30px;
     line-height: 1.2;
   }
+
   .content__marketing {
     padding: 0 20px 3rem;
     /* padding-bottom: 7.5rem; */
