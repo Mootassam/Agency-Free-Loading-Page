@@ -693,6 +693,38 @@ input:focus {
   cursor: pointer;
 }
 
+/* Styling the newsLettre Version For Mobile  */
+@media screen and (max-width: 1133px) {
+  .newsLettre {
+    padding: 5rem 20px 3rem;
+  }
+  .newsLettre > p {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .newsLettre__form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 4px;
+    border: 1px solid var(--Text-primary);
+    border-radius: 3.125rem;
+  }
+
+  input {
+    border-radius: 3.125rem;
+    border: none;
+    flex-grow: 2;
+    padding: 1rem;
+    font-size: 19px;
+    width: 10%;
+  }
+  .form__button {
+    padding: 1rem;
+  }
+}
+
 /* ***** Styling the Footer Section ***** */
 .app__footer {
   background-color: var(--Button-Primary);
