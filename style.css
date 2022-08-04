@@ -777,3 +777,32 @@ input:focus {
   line-height: 34.68px;
   font-size: 24px;
 }
+
+/* styling the footer section Mobile  */
+@media screen and (max-width: 1133px) {
+  .footer {
+    display: flex;
+    gap: 6.5rem;
+    color: var(--Secondary-white);
+    max-width: 1132px;
+    margin-inline: auto;
+    padding: 3.31rem 20px 1.25rem;
+    align-items: center;
+    flex-direction: column;
+  }
+  ul {
+    display: none;
+  }
+  .footer__detaills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__detaills > div:nth-child(1) {
+    width: 100%;
+  }
+  .footer__detaills > div {
+    width: 100%;
+  }
+}
