@@ -42,8 +42,6 @@ p {
 }
 .app {
   overflow: hidden;
-  width: min-content;
-  margin-inline: auto;
 }
 
 /* *** Styling the menue for the version desktop  **** */
@@ -443,13 +441,19 @@ p {
   gap: 0.31rem;
 }
 
+/* ****** Styling the newsLettre  ****** */
+
 .app__newsLettre {
+  width: 100%;
+}
+.newsLettre {
   display: flex;
+  max-width: 1132px;
+  margin: auto;
   flex-direction: column;
-  padding: 5rem 10rem;
+  padding: 5rem 0;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 .app__newsLettre > span {
   color: var(--Button-Primary);
@@ -488,26 +492,29 @@ input:focus {
   border-radius: 3.125rem;
   color: var(--white-primary);
   padding: 1.18rem 1.25rem;
-
   cursor: pointer;
 }
 
+/* ***** Styling the Footer Section ***** */
 .app__footer {
-  display: flex;
-  flex-direction: column;
-  padding: 8.31rem 10rem 1.25rem 10rem;
   background-color: var(--Button-Primary);
-  color: var(--Secondary-white);
-  align-items: center;
+  width: 100%;
+}
+.footer {
+  display: flex;
   gap: 6.5rem;
+  color: var(--Secondary-white);
+  max-width: 1132px;
+  margin-inline: auto;
+  padding: 8.31rem 0 1.25rem;
+  align-items: center;
+  flex-direction: column;
 }
 .app__footer span {
   color: var(--Secondary-white);
 }
-
 .footer__detaills {
   display: flex;
-
   justify-content: space-between;
 }
 
